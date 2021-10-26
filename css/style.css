@@ -1,0 +1,93 @@
+header{
+  font-family: TINY5x3-80;
+  color: #FFFFFF;
+
+}
+body{
+  background-color: #1347E9;
+  color:white;
+}
+.tenet-body {
+  background-color: pink;
+}
+main {
+  font-family: Compagnon;
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+.header {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 3rem;
+}
+
+div.square {
+  background-color: #00FF00;
+  color: black;
+  text-align: center;
+  font-family: Compagnon;
+  font-style: oblique;
+  font-size: 2rem;
+  width:85vw;
+  border-radius: 30px;
+  position: relative;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  margin-bottom: 4rem;
+  align-items: center;
+  transform: translatex(5rem)
+}
+
+#header-text {
+  font-family: Compagnon;
+  font-size: 1em;
+}
+/* / #header-text:hover{
+  color:yellow;
+} */
+a:hover{
+  color: red;
+}
+
+div.square:hover {
+  background-color: #FF00FF;
+  color: white;
+}
+
+::selection {
+  background-color: green;
+  color: yellow;
+}
+#snoopy-gettin-good-sleep {
+  width:15vw;
+  padding: 2%;
+  position: fixed;
+  float: right;
+  animation: rotation 5s infinite linear;
+  z-index: 3;
+}
+#c-sleeps-good-too {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    animation: rotation 15s infinite linear;
+}
+footer {
+  font-family: TINY5x3-80;
+  position: sticky;
+  margin-top: 30vh;
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+
+}
